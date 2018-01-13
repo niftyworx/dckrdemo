@@ -1,4 +1,4 @@
 <?php
-$welcome = "Hell World 6";
+$welcome = "Hell World 7";
 echo $welcome;
 ?>

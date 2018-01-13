@@ -1,6 +1,6 @@
-cd /home/jdo/git_repos/dckrdemo
+cd /home/jdo/github_repo/dckrdemo
 docker stop helloworld
 docker rm helloworld
-docker build -t hello-world /home/jdo/git_repos/dckrdemo/
-docker run -d --name helloworld -p 81:80 -v /home/jdo/git_repos/dckrdemo/src/:/var/www/html hello-world
+docker build -t hello-world /home/jdo/github_repo/dckrdemo/
+docker run -d --name helloworld -p 81:80 -v /home/jdo/github_repo/dckrdemo/src/:/var/www/html hello-world
 
